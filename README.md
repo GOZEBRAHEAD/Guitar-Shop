@@ -14,4 +14,4 @@ https://guitar-shop-zebrahead.vercel.app/
 
 ![image](https://user-images.githubusercontent.com/54969894/132963230-9ba0105d-128c-441c-8d6c-a4a786d4f791.png)
 
-![image](https://user-images.githubusercontent.com/54969894/132963253-9172cc01-e08e-47ec-98e2-67a1b23c60a4.png)
+![image](https://user-images.githubusercontent.com/54969894/132965817-42337908-8b3e-4b30-b99f-0922689d4ddb.png)
