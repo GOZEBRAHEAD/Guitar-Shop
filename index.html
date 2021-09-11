@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/c39033e14b.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/index.css" />
+
+    <title>Proyecto final JS - CoderHouse</title>
+</head>
+<body>
+
+    <div class="index__layout">
+        
+        <header class="index__header">
+
+            <div class="index__header__titles">
+                <h1>Guitar Heaven</h1>
+                <h5>good prices and good deals!</h5>
+            </div>
+
+            <div class="index__header__cart">
+                <a href="shopping-cart.html"><i class="fas fa-shopping-cart"></i>My cart</a>
+            </div>
+
+        </header>
+
+        <div class="index__sponsors">
+
+            <a href="https://www.fender.com/" target="_blank">
+                <img src="./img/sponsors/fender_logo.png" alt="" />
+            </a>
+
+            <a href="https://www.ibanez.com/" target="_blank">
+                <img src="./img/sponsors/ibanez_logo.png" alt="" />
+            </a>
+
+            <a href="https://marshall.com/" target="_blank">
+                <img src="./img/sponsors/marshall_logo.png" alt="" />
+            </a>
+
+            <a href="https://www.jacksonguitars.com/" target="_blank">
+                <img src="./img/sponsors/jackson_logo.png" alt="" />
+            </a>
+
+            <a href="https://www.gibson.com/" target="_blank">
+                <img src="./img/sponsors/gibson_logo.png" alt="" />
+            </a>
+            
+        </div>
+
+        <nav class="index__navbar">
+
+            <div class="index__navbar__prices">
+                <p class="index__navbar__title">Price</p>
+
+                <p class="index__navbar__subtitle">Min:</p>
+                <input id="price-min-selection" type="number" min="0" max="2500" placeholder="0" />
+                
+                <p class="index__navbar__subtitle">Max:</p>
+                <input id="price-max-selection" type="number" min="0" max="2500" placeholder="2500" />
+            </div>
+
+            <div class="index__navbar__brand">
+                <p class="index__navbar__title">Brand</p>
+
+                <select class="index__navbar__brand__options" name="marcas" id="brand-selection">
+                    <option value="All" selected>All</option>
+                    <option value="Fender">Fender</option>
+                    <option value="Ibanez">Ibanez</option>
+                    <option value="Gibson">Gibson</option>
+                    <option value="Marshall">Marshall</option>
+                    <option value="Epiphone">Epiphone</option>
+                </select>
+            </div>
+
+            <div class="index__navbar__category">
+                <p class="index__navbar__title">Categories</p>
+
+                <select class="index__navbar__category__options" name="categorias" id="category-selection">
+                    <option value="All" selected>All</option>
+                    <option value="Electric">Electric</option>
+                    <option value="Acoustic">Acoustic</option>
+                    <option value="Combo">Combo</option>
+                    <option value="Accessories">Accessories</option>
+                </select>
+            </div>
+
+            <div class="index__navbar__buttons">
+                <button class="index__navbar__buttons__button-styles" id="btn-filter-styles">Apply</button>
+                <button class="index__navbar__buttons__button-styles" id="btn-delete-styles">Clear</button>
+            </div>
+
+        </nav>
+
+        <div class="index__sort-bar">
+
+            <div>
+                <label for="ordenamiento">Order by</label>
+
+                <select class="index__sort-bar__options" name="ordenamiento" id="sort-selection">
+                    <option value="masRelevante" selected>Most relevant</option>
+                    <option value="menorPrecio">Lowest price</option>
+                    <option value="mayorPrecio">Higher price</option>
+                </select>
+            </div>
+
+        </div>
+
+        <main class="index__main" id="index__main__content">
+        </main>
+
+        <footer class="index__footer">
+            <a href="https://github.com/GOZEBRAHEAD" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/luciano-nieves/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+
+            <a href="https://www.instagram.com/lucho_nieves/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </footer>
+
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
